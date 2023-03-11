@@ -3,11 +3,11 @@ export default function Certifications(){
 
     return (
         <>
-            <div className=" flex-col justify-center p-3">
-                <div className=" flex justify-center text-3xl py-3">
+            <div className=" flex-col justify-center px-3">
+                <div className=" flex justify-center text-3xl py-2">
                 Certifica<div className=" text-indigo-400">tions</div>
                 </div>
-                <div className=" flex gap-4">
+                <div className=" flex gap-4 pb-2">
                     <div>
                     <div className=" flex w-60 bg-white h-0.5 justify-center items-center my-2 -z-10">
                     <div className=" absolute rounded-lg bg-indigo-600 w-4 h-4 z-1"></div>
