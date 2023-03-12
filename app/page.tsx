@@ -4,6 +4,7 @@ import styles from './page.module.css'
 import Header from './Components/Header'
 import Skills from './Components/Skills'
 import Certifications from './Components/Certifications'
+import Projects from './Components/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       <Skills/>
       <Certifications/>
+      <Projects/>
     </div>
   )
 }
