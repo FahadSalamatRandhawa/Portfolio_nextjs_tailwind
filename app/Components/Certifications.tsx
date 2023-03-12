@@ -3,25 +3,18 @@ export default function Certifications(){
 
     return (
         <>
-            <div className=" flex-col justify-center px-3">
+            <div className=" flex-col px-3">
                 <div className=" flex justify-center text-3xl py-2">
                 Certifica<div className=" text-indigo-400">tions</div>
                 </div>
-                <div className=" flex gap-4 pb-2">
-                    <div>
-                    <div className=" flex w-60 bg-white h-0.5 justify-center items-center my-2 -z-10">
-                    <div className=" absolute rounded-lg bg-indigo-600 w-4 h-4 z-1"></div>
-                    </div>
-                    
-                    <div className=" gap-y-2 inline-block h-auto min-h-24 w-60 p-5 shadow-md shadow-indigo-400">
-                        <div>Certificate Name</div>
-                        <div>
+                <div className=" flex flex-wrap gap-5 border-green-300 border-2">
+                    <div className=" block w-60 h-40">
+                        <div className=" flex justify-center items-center bg-white h-0.5 my-2"><span className=" bg-indigo-500 rounded-lg h-4 w-4"></span></div>
+                        <div className=" flex flex-col px-2 h-32 min-w-24 rounded-sm shadow-md shadow-indigo-500">
+                            <div>Name</div>
                             <em>Provider</em>
+                            <button className=" rounded-sm mt-10 outline-1 outline-indigo-400 outline">Validate Certification</button>
                         </div>
-                        <button className=" mt-3 outline-indigo-500/50 outline p-1 rounded-md outline-2">
-                            Verify Certification
-                        </button>
-                    </div>
                     </div>
                 </div>
             </div>
