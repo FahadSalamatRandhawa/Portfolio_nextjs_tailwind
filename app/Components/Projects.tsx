@@ -22,7 +22,11 @@ export default function Projects(){
         <>
             <div className=" flex flex-col justify-center w-full h-auto">
                 <div className=" flex text-3xl justify-center p-5">Proje<div className=" text-indigo-500">cts</div></div>
+<<<<<<< HEAD
                 <div className=" flex flex-wrap justify-center md:justify-start p-5 gap-5 h-auto ">
+=======
+                <div className=" flex flex-wrap justify-center md:justify-start p-5 gap-3 h-auto ">
+>>>>>>> 60f534933e8b6ed784eb7a95e807edd5af60cb6b
                     {ProjectList.map(({Name,Description,GithubLink,LiveLink})=>{
                         return (
                             <div className="grid grid-cols-1 gap-2 overflow-auto hover:scale-110 p-3 transition-transform min-h-40 h-auto w-44 border-orange-500 border-2 rounded-md">
