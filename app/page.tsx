@@ -1,6 +1,11 @@
-import Image from 'next/image'
+export const metadata={
+  title: 'Fahad Randhawa',
+  description: 'A basic portfolio following basic design using tailwind Nextjs and react-icons'
+}
+
+
 import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+
 import Header from './Components/Header'
 import Skills from './Components/Skills'
 import Certifications from './Components/Certifications'
